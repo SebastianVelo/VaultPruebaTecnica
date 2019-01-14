@@ -19,7 +19,7 @@ public class Employee implements Serializable{
 	private static final long serialVersionUID = -8236765905749173862L;
 	@GeneratedValue
 	@Id
-	@Column(name="REGION_ID")
+	@Column(name="EMPLOYEE_ID")
 	private int id;	
 	@Column(name="FIRST_NAME")
 	private String firstName;

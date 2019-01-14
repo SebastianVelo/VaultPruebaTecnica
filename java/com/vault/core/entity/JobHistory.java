@@ -5,8 +5,6 @@ import java.sql.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Table(name="JOB_HISTORY")
@@ -17,8 +15,7 @@ public class JobHistory implements Serializable{
 	 * 
 	 */
 	private static final long serialVersionUID = 6616559974056458363L;
-	@GeneratedValue
-	@Id
+
 	@Column(name="EMPLOYEE_ID")
 	private int employeeId;	
 	@Column(name="START_DATE")
